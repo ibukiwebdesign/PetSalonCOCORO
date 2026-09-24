@@ -64,6 +64,7 @@ section{
     background-color: var(--sub-color);
     color: var(--white);
     font-size: var(--font-size-m);
+    letter-spacing: 0.1em;
     font-weight: bold;
     width: 200px;
     border-radius: 10px;
