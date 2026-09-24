@@ -9,7 +9,6 @@
     --font-size-s: 1rem;      /* 16px */
     --font-size-m: 1.25rem;   /* 20px */
     --font-size-l: 1.75rem;   /* 28px */
-    --font-size-xl: 2rem;      /* 32px */
 }
 body{
     color: var(--text-color);
@@ -47,14 +46,14 @@ section{
     padding-block: 50px;
 }
 .section_title{
-    font-size: var(--font-size-xl);
+    font-size: var(--font-size-l);
     color: var(--white);
     text-align: center;
 
     background-image: url(../img/ribon.png);
     background-repeat: no-repeat;
     background-size: contain;
-    background-position: center top 4px;
+    background-position: center top 2px;
     width: 310px;
     height: 63px;
     margin-inline: auto;
@@ -214,7 +213,7 @@ section{
 .news_list dt,
 .news_list dd{
     padding-block: 10px;
-    border-bottom: var(--text-color) 1px solid;
+    border-bottom: rgb(from var(--text-color) r g b / 0.7) 1px solid;
 }
 /* menu */
 .menu_list{
@@ -241,7 +240,7 @@ section{
     display: block;
 }
 .menu_list_title_en{
-    font-size: var(--font-size-xl);
+    font-size: var(--font-size-l);
     font-weight: bold;
 }
 .menu_list_title_ja{
@@ -306,7 +305,6 @@ section{
         --font-size-s: 0.875rem;  /* 14px */
         --font-size-m: 1rem;      /* 16px */
         --font-size-l: 1.25rem;   /* 20px */
-        --font-size-xl: 1.5rem;    /* 24px */
     }
 
     section {
